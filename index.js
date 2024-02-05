@@ -19,11 +19,6 @@ function runQuiz () {
     }
     }
 
-    console.log(numOfAgrees)
-
-    console.log(correctAnswer) 
-    console.log(currentQuestion)
-    console.log(question.valueOf)
         if (completeQuiz===0) {
         return alert (Math.round(numOfAgrees/totalQuestions) * 100 + '%')
  }
